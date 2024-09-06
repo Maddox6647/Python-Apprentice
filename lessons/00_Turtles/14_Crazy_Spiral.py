@@ -38,7 +38,7 @@ def make_a_shape2(t):
         t.forward(250)
         t.left(120)
                
-    t.circle(100)
+    t.circle(10)
 colors = [ 'red', 'blue', 'black', 'orange']    
 
         
