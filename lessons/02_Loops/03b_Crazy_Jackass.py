@@ -22,20 +22,20 @@ jackass.shape('turtle')                    # Set the shape of the turtle to a tu
 jackass.speed(2)                           # Make the turtle move as fast, but not too fast. 
 
 
-forwards = jackass.forward(23)
+forwards = [ 20, 20, 20, 20, 20, 20, 20, 2000 ]
 lefts = [ 45, -60, 90, 45, -90, 60, 22 , -45 ]
-colors = [ "green, red, cyan, yelow, purple, pink, lime, orange" ]
+colors = [ "green, red, yellow, orange, purple, blue, pink, cyan" ]
 
-for  i in range(8):
+for i in range(8):
 
-    forward = forwards
-    left = lefts
-    color = colors
+    forward = forwards[i]
+    left = lefts[i]
+    color = colors[i]
 
 
-    jackass.color(colors)
-    jackass.forward(forwards)
-    jackass.left(lefts)
+    jackass.color(color)
+    jackass.forward(forward)
+    jackass.left(left)
 
 turtle.exitonclick()  
 
