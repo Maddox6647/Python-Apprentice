@@ -20,13 +20,15 @@ jackass = turtle.Turtle()                  # Create a turtle named jackass
 
 jackass.shape('turtle')                    # Set the shape of the turtle to a turtle
 jackass.speed(2)                           # Make the turtle move as fast, but not too fast. 
+jackass.penup()
+jackass.goto(-150, -200)
+jackass.pendown()
+jackass.pensize(500)
+forwards = [ 200, 200, 200, 200, 200, 200, 200 ]
+lefts = [ 51.4285714286, 51.4285714286, 51.4285714286, 51.4285714286, 51.4285714286, 51.4285714286, 51.4285714286 ]
+colors = [ "green", "red", "yellow", "orange", "purple", "blue", "pink" ]
 
-
-forwards = [ 20, 20, 20, 20, 20, 20, 20, 2000 ]
-lefts = [ 45, -60, 90, 45, -90, 60, 22 , -45 ]
-colors = [ "green, red, yellow, orange, purple, blue, pink, cyan" ]
-
-for i in range(8):
+for i in range(7):
 
     forward = forwards[i]
     left = lefts[i]
