@@ -23,7 +23,7 @@ jackass.speed(2)                           # Make the turtle move as fast, but n
 jackass.penup()
 jackass.goto(-150, -200)
 jackass.pendown()
-jackass.pensize(500)
+jackass.pensize(350)
 forwards = [ 200, 200, 200, 200, 200, 200, 200 ]
 lefts = [ 51.4285714286, 51.4285714286, 51.4285714286, 51.4285714286, 51.4285714286, 51.4285714286, 51.4285714286 ]
 colors = [ "green", "red", "yellow", "orange", "purple", "blue", "pink" ]
